@@ -1,0 +1,82 @@
+# Start Form Designer File
+aObjectsList = [
+	[ :name = "Window" , :id = 1 , :classname = "formdesigner_qwidget" , :data = [
+		 :x = 20 , : y = 20  , 
+		 :width =  489 , :height = 449 , 
+		 :title =  "Web Browser" , 
+		 :backcolor =  "#aaff7f" , 
+		 :windowflags =  "Qt_Window | Qt_WindowMinimizeButtonHint | Qt_WindowMaximizeButtonHint | Qt_WindowCloseButtonHint" , 
+		 :mainlayout =  "Layout1" ,
+		 :WindowIcon =  "" , 
+		 :Menubar =  ""  ,
+		 :IndexType =  0  ,
+		 :GUILibrary =  0  
+
+		]
+	],
+	[ :name = "Button1" , :id = 2 , :classname = "formdesigner_qpushbutton" , :data = [
+		 :x = 310 , : y = 39  , 
+		 :width =  102 , :height = 38 , 
+		 :textcolor =  "" , 
+		 :backcolor =  "" , 
+		 :font =  "Arial" , 
+		 :parent =  "win"  ,
+		 :text =  "Go",
+		 :BtnImage =  "",
+		 :setClickEvent =  "Go"
+		]
+	],
+	[ :name = "LineEdit1" , :id = 3 , :classname = "formdesigner_qlineedit" , :data = [
+		 :x = 26 , : y = 39  , 
+		 :width =  260 , :height = 40 , 
+		 :textcolor =  "" , 
+		 :backcolor =  "white" , 
+		 :font =  "Arial" , 
+		 :parent =  "win"  ,
+		 :text =  "https://www.lazarus-ide.org/",
+		 :setTextChangedEvent =  "",
+		 :setcursorPositionChangedEvent =  "",
+		 :seteditingFinishedEvent =  "",
+		 :setreturnPressedEvent =  "",
+		 :setselectionChangedEvent =  "",
+		 :settextEditedEvent =  ""
+		]
+	],
+	[ :name = "Layout2" , :id = 4 , :classname = "formdesigner_qlayout" , :data = [
+		 :x = 431 , : y = 41  , 
+		 :width =  40 , :height = 34 , 
+		 :textcolor =  "" , 
+		 :backcolor =  "" , 
+		 :font =  "Arial" , 
+		 :parent =  "win"  ,
+		 :LayoutType =  1,
+		 :LayoutObjects =  "Button1,LineEdit1"
+		]
+	],
+	[ :name = "WebView1" , :id = 5 , :classname = "formdesigner_qwebview" , :data = [
+		 :x = 13 , : y = 99  , 
+		 :width =  461 , :height = 307 , 
+		 :textcolor =  "" , 
+		 :backcolor =  "" , 
+		 :font =  "Arial" , 
+		 :parent =  "win"  ,
+		 :URL =  "",
+		 :setloadProgressEvent  =  "",
+		 :setloadStartedEvent  =  "",
+		 :setselectionChangedEvent  =  "",
+		 :seturlChangedEvent  =  ""
+		]
+	],
+	[ :name = "Layout1" , :id = 6 , :classname = "formdesigner_qlayout" , :data = [
+		 :x = 35 , : y = 18  , 
+		 :width =  69 , :height = 30 , 
+		 :textcolor =  "" , 
+		 :backcolor =  "" , 
+		 :font =  "Arial" , 
+		 :parent =  "win"  ,
+		 :LayoutType =  0,
+		 :LayoutObjects =  "Layout2,WebView1"
+		]
+	]
+]
+# End Form Designer File
